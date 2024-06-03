@@ -40,3 +40,38 @@ This Flutter application integrates with Firebase to provide user authentication
 3. Configure Firebase in Flutter
 - Ensure that your android/build.gradle and android/app/build.gradle files are set up according to the Firebase setup instructions.
 - Ensure that your ios/Runner/Info.plist is configured according to the Firebase setup instructions.
+## Project Structure
+```bash 
+lib/
+│
+├── main.dart                # Entry point of the application
+├── authentication/          # Contains all authentication-related files
+│   ├── login.dart           # Login page
+│   ├── signup.dart          # Signup page
+│   └── verify_email.dart    # Email verification page
+│
+├── teacher/                 # Contains teacher-specific features
+│   ├── student_form.dart    # Page 1: Form to input student data
+│   └── student_list.dart    # Page 2: List of student data
+│
+├── models/                  # Contains data models
+│   └── student.dart         # Student model
+│
+├── services/                # Contains services for Firebase interaction
+│   ├── auth_service.dart    # Authentication service
+│   └── firestore_service.dart # Firestore service
+│
+└── utils/                   # Utility files and helpers
+    ├── theme.dart           # Dark mode/Light mode theme
+    └── constants.dart       # Constants used across the app
+```
+
+
+## Additional Information
+### Dark Mode/Light Mode
+The app includes a toggle for switching between dark and light modes, providing a better user experience.
+
+### Real-time Updates
+The student data displayed in the app updates in real-time using Firestore's snapshot listeners.
+## Contact
+For any queries or further assistance, please contact skrsambit@gmail.com
