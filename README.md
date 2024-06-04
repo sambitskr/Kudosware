@@ -60,18 +60,10 @@ lib/
 │   └── student.dart         # Student model
 │
 ├── services/                # Contains services for Firebase interaction
-│   ├── auth_service.dart    # Authentication service
-│   └── firestore_service.dart # Firestore service
-│
-└── utils/                   # Utility files and helpers
-    ├── theme.dart           # Dark mode/Light mode theme
-    └── constants.dart       # Constants used across the app
+    ├── auth_service.dart    # Authentication service
+    └── firestore_service.dart # Firestore service
 ```
 
-
-## Additional Information
-### Dark Mode/Light Mode
-The app includes a toggle for switching between dark and light modes, providing a better user experience.
 
 ### Real-time Updates
 The student data displayed in the app updates in real-time using Firestore's snapshot listeners.
