@@ -3,6 +3,8 @@
 
 This Flutter application integrates with Firebase to provide user authentication and Cloud Firestore for data storage. The app includes a Teacher account feature, where teachers can store and manage students' data. The application supports email-based user signup, login, and verification. It also includes a user-friendly interface with light and dark mode options, and it ensures real-time updates of the students' data.
 
+https://github.com/sambitskr/Kudosware/assets/87202351/5b030fab-687a-4002-be4d-1148711d3894
+
 ## Features
 
 ### Authentication
